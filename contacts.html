@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="welcome to bandicts Arena">
+    <meta name="keywords" content="hotel, bandict, new India">
+    <link rel="stylesheet" href="css/syle.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 768px)">
+    <title>Contacts</title>
+
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+
+            <div class="container">
+                <h1 class="logo"><a href="index.html">HBT</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a  href="about.html">About</a></li>
+                    <li><a class="current" href="contacts.html">Contacts</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+ 
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading">
+                <span class="text-primary">Contact</span> Us
+            </h1>
+                <p>Please fill out the form below to contact us</p>
+            <form action="process.php">
+                    <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                    </div>
+               
+            
+                    <div class="form-group">
+                    <label for="Email">E-mail</label>
+                    <input type="text" name="Email" id="Email">
+                    </div>
+               
+            
+                    <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea name="Message" id="Message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">submit</button>
+                </form>
+
+        </div>
+    </section>
+<section id="contact-info" class=bg-dark>
+    <section id="features">
+        <div class="box">
+            <div class="i-location"></div>
+           <img src="data:image/png;base64,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" width="100px" height="100px"/>
+            <h3>Location</h3>
+            <p>Madikeri
+            </p>
+        </div>
+        <div class="box">
+            <div class="i-Phone"></div>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAE10lEQVR4nO2aW4hVVRjHf9tKTcey65QVGsX00otQU/QwFCIympFWqJT1EKGRRi9lFwnqIYpSSivCHoqgoCgqil4qLS9FF0cN0pnJaUaoEILsLZuxOT2svfBb36x9PetcRvYPNsPs9a31ff//WWfvvdY+UFFRUVFRUVGSacCnwBCwsMW1tIQbgVp8/AP0trQaww3ARuCKZiSbBfRz0oTjwOJmJE5gOTAa13IEuLAZSecAA7gm3NyMxAop3h5fhk5yJrAUuECd1yb8G8c1C594ewT9MD6MB/0N6FJtPhNuCZk8AS3+APCG+H9nyGR7xcC/k8+EW0MWoPCJPx/oBMbicyfic0G4BjhGMRNGgWWhChAkibfsFG1Bv47dlDNhecAassQDvCra15RJ0gFsA14HZqu2sibcXqYQRR7xAJtEzENlEq0XA3xPeRPkc8IYcEeZYmLyigd4W8StKpOsB3MBKWrCVSrGZ8KKEvUUER8BwyJ2fol8ANyFa8IPwDkqpqwJKwvUUUQ8wAJVT1Qg1wQaZcIJ8k3NouKnAn0i/pkcOTLRJvxIOBPuTMlbVHwEvCni//LUWRptwl7gXBUTciYspbh4eesbp74Lrpe8JvyNa8KVKkabcBy4WsUcpJj4V0R8DXgqv6xiaBP6yDbhPc84c4BBEfOWareC+igu/vncakriM+E8FdON+Q7WgCcTxukRY4yotgjzXDE1pY4IeJkmi7doE/Yx0YRO4PqUMeaK/kcL5o+ArbRIvCWPCWnIT297gX4RsIUWi7doE/aTb/k5C3Oltv225MwXAS/hin+hWMnhKWNCBOwSfcaBB3P0eZE2E29ZwclNiDy3LjArzh24gjamxD+rYjfXV3J49Ew4gLt/uAzYgJn+lg7gK1xhT3jG3kybfvIabcJR4DXgC3Fuq+ozA/gcV+DTon0Tk0S8RZugD98CZTrwmYp7DiN2Uom3LME8BsvixzBX+6SHm2nAxyQbN2nEW6ZjXpetA1YDl+bocwbwPqeA+LxMAS6L/1pOB97hFBB/Wkb7TMzrq1r8t0P1XQ3c1pjSGs8izGJoELjI0z4T+Bp3mu/CvUVOWnoxr8utML3/5xNvjz3AWQnjLgQ+8YzXVizGbHBYQf3A2aJdix/HbGHLdcG3qo9lSPRZ25jy62MJrvgBzMaHxSf+/rhtDa4J3zFxG/4D1betTNDTfhC4RLTPwCx5pYB1aox7gf9EjN5o8Y3xQGAdpdDifyFb/PqEsbQJ+3AXVW1nQi/utB8G5ol2X8FZy15tgl5et40J+oI3Qrr4GvBIzrG1CQdxb6ctN6GM+A0Fc2gTDgEXp+Romgn6aj9CtvhHS+bSJvTj3lmaboIWfwS4PKWgGvBYnTnbxoQFuK+rfsVsbVt8T3gPB8qtnxO0Cb5njKBPjFOAwyLBMNnii37ns9AmDOIusXUNf8bngjBfDHwMd9r7xNc77ZPQJhzGLKdlLYdEe7Cf7y4Sg+5QCbX4x0MlTWAtrglDuLNxm2i7J1TSLjHoKHA3cB2wG1d82rZ2SLQJw5gfZq7EfTHbEzLpN7hi9ZH0ErRRaBP0MYDZXQpGF/CHJ9E4/r38ZnAf7gsZeZ3qbkTCTswe3U+YRc9HwE2NSFSAa4F3MZ/4z5hfisxN7VFRUVFRUVHxP/v3vPacozQDAAAAAElFTkSuQmCC" width="100px" height="100px"/>
+            <h3>Phone</h3>
+            <p>9740106499</p>
+        </div>
+        <div class="box">
+            <div class="i-mail"></div>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAACfUlEQVRoge3Xy4uNcRzH8dcwLrlFLpGMZGEjkhopCSXKRjYWysJitpYWs7H0L8zCRoqUjSwkpuSSW7KxMSVJ7imRy7gci+d3nHlmjnOe65xnOO966nTO9/L5nefzfH+/hy6J6MMwroTPU5IdeIVauN5hTycFpaUHg/ghWsDFcNXCd4MhptIswHmR6F84gWki4cfEF7eoQxrbshEjGjba2yRmJ16HmBFsmDR1CTmETyKBD7CmRewq3A6xX3CkdHUJ6BXZp/5An8KcBHmzMDQmbwgzS9LYlpW4FYR8xdEMNQ7jc6hxH6sLU5eQ7XgZBDzDlhy1NuFJqPUWu3OrS0CP6J8fDY2HsayAuotxSWNEHxdNu1KYj3Pio3V6gfXrI/pn6HEBCwusD9bhUWjwAQeKbjCGfXgfej3G+qIK7xeJr+Eh1hZVuAV9uBd6fsTBPMXGj9bTmJtTYBpm46T4iJ6RtshSXA0Fvou82ykG8C1ouY4VSRO34UVIfI6tZahLyWY8FWl6g13tEgY0Rus1LC9RXFqW4LK4SyacoufhrIYfa6JnpGr0ims8I9L+h7sao7UeVFXq+upa79DYPUdFo7W/I9Ky0S/SPPq3gKlyR2LkOc/cFPdrfTxOVn6MZu/OtRa/NYtLUrPI/Kb6ijhh9iRoXmY+0i1kvBXKIpPV0lirnRWSWvJvfZJarTBrFWKFouuXsXt3ZHSX9jo52fwzCynDWnn3kUxkWUjZz0Cm+mmsdSNLg5xkPrKQfMMbH5d2o8ya3zSuiGckr9UKsWqeqdXMammskDe/Lf/d+0il6C6kanQXUjW6C6karXb2Ku8lE2h2RzpxOExLoSeALl1a8BuGxrmm6H92QgAAAABJRU5ErkJggg==" width="100px" height="100px"/>
+            <h3>E-mail</h3>
+            <p>Surajbanthot@gmail.com</p>
+        </div>
+    </section>
+
+</section>
+
+       <footer id="main-footer">
+        <p>Hotel Bandict &copy 2020, All Rights Reserverd.</p>
+    
+    </footer>
+</body>
+
+</html>
